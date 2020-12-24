@@ -1,0 +1,19 @@
+#gradient {
+    /* fallback color */
+    background-color: #e9180a9f;
+    /* fallback image */
+    background-image: url(images/fallback-image.png);
+    /* Firefox 3.6+ */
+    background-image: -moz-linear-gradient(#336666,
+     #66cccc);
+    /* Safari 4+, Chrome 1+ */
+    background-image: -webkit-gradient(linear, 20% 60%,
+     0% 100%, from(#f2fafa), to(#336666));
+    /* Safari 5.1+, Chrome 10+ */
+    background-image: -webkit-linear-gradient(#cec110,
+     #2b086b);
+    /* Opera 11.10+ */
+    background-image: -o-linear-gradient(#3f6633,
+     #66cccc);
+    height: 150px;
+    width: 300px;}
